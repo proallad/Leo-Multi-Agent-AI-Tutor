@@ -1,0 +1,21 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local student data
+/data/leo_memory.json
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
